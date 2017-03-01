@@ -3,7 +3,7 @@
     require 'connect.php';
 
     // run a SELECT query
-    $query = "SELECT * FROM tweets ORDER BY SavedDate DESC";
+    $query = "SELECT * FROM tweets";
 
     // prepare a PDOStatement object
     $statement = $db->prepare($query); // Returns a PDOStatement object.
