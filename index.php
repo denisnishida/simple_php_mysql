@@ -1,14 +1,14 @@
 <?php
     // Connect to database
-    require 'connect.php';
-
-    // run a SELECT query
-    $query = "SELECT * FROM tweets ORDER BY SavedDate DESC";
-
-    // prepare a PDOStatement object
-    $statement = $db->prepare($query); // Returns a PDOStatement object.
-    $success = $statement->execute(); // The query is now executed.
-    $tweets = $statement->fetchAll();
+//    require 'connect.php';
+//
+//    // run a SELECT query
+//    $query = "SELECT * FROM tweets ORDER BY SavedDate DESC";
+//
+//    // prepare a PDOStatement object
+//    $statement = $db->prepare($query); // Returns a PDOStatement object.
+//    $success = $statement->execute(); // The query is now executed.
+//    $tweets = $statement->fetchAll();
 ?>
 
 <!DOCTYPE html>
