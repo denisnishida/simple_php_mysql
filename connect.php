@@ -1,7 +1,4 @@
 <?php
-    //    Denis Nishida - Section 2 - WEBD-2006
-    //    Challenge 5
-
     define('DB_DSN','mysql:host=localhost;dbname=serverside;charset=utf8');
     define('DB_USER','serveruser');
     define('DB_PASS','gorgonzola7!');

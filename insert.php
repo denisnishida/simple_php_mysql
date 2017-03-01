@@ -25,8 +25,6 @@
 ?>
 
 <!DOCTYPE html>
-<!-- Denis Nishida - Section 2 - WEBD-2006 -->
-<!-- Challenge 5 -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
